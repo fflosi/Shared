@@ -1,24 +1,3 @@
-﻿###https://community.spiceworks.com/how_to/153255-windows-10-signing-a-powershell-script-with-a-self-signed-certificate
-###https://gallery.technet.microsoft.com/PowerShell-FTP-Client-db6fe0cb
-###Get-ExecutionPolicy -List
-###Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
-###Set-ExecutionPolicy -ExecutionPolicy undefined -Scope CurrentUser
-###Import-Module PSFTP
-
-##Set-PSDebug -Trace 0
-#$CamPath = "1F01243PAU00592"
-
-#******* IMPORTANT*****
-#******* IMPORTANT*****
-#******* IMPORTANT*****
-#******* IMPORTANT*****
-#******* IMPORTANT*****
-#   Before start
-### -not needed at this time ----run on PS7 -> $Process = Start-Process PWSH -ArgumentList @("-NoExit") -PassThru -WindowStyle Hidden
-### Run PS7.ps1 - V:\_Camera\Scripts\PS7.ps1
-### check version    Get-Host | Select-Object Version
-
-
 Import-Module PSFTP
 $ProgressPreference = 'SilentlyContinue'
 
